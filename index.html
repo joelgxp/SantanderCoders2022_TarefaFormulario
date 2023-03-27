@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fomulário</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section>
+        <div id="div-form">
+            <form name="form-login">
+
+                <label for="nome">Nome completo</label>
+                <input type="text" name="nome" id="nome">
+
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email">
+
+                <label for="telefones">Telefone</label>
+                <input type="tel" name="telefones" id="telefones">
+                               
+
+                <fieldset>
+                    <input type="radio" name="tipo" id="casa" value="casa">
+                    <label for="salvar">Casa</label>
+
+                    <input type="radio" name="tipo" id="trabalho" value="trabalho" >
+                    <label for="trabalho">Trabalho</label>
+
+                    <input type="radio" name="tipo" id="celular" value="celular" checked>
+                    <label for="celular">Celular</label>
+                </fieldset>
+                <br>
+
+                <label for="logradouro">Logradouro</label>
+                <input type="text" name="logradouro" id="logradouro">
+
+                <label for="cidade">Cidade</label>
+                <input type="text" name="cidade" id="cidade">
+
+                <label for="estado">Estado</label>
+                <input type="text" name="estado" id="estado">
+                
+                <label for="cep">CEP</label>
+                <input type="text" name="cep" id="cep">
+                
+                <label for="pais">País</label>
+                <input type="text" name="pais" id="pais">                
+
+
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
